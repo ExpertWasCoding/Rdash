@@ -1,0 +1,8 @@
+[Desktop-Entry]
+Version=1.0
+Name=Rdash
+Comment=Use this session to run Rdash as your desktop enviroment
+Exec=run-Rdash
+Type=Application
+DesktopNames=Rdash
+

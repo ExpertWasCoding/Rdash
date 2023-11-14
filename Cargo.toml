@@ -1,0 +1,17 @@
+[package]
+name = "Rdash"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.66"
+tracing = "0.1.37"
+tracing-subscriber = { version = "0.3.16", features = ["env-filter", "json"] }
+
+# Compiling from the head of the develop branch in GitHub
+penrose = { git = "https://github.com/sminez/penrose.git" }
+penrose_ui = { git = "https://github.com/sminez/penrose.git" }
+
+
